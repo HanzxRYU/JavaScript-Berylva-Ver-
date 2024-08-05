@@ -27,3 +27,19 @@ if (nilaiUjian > 85) {
 } else if (nilaiUjian < 50) {
   console.log("Tidak lulus");
 }
+
+// gambar 2
+var pendaftaran = -1
+var pembayaran = -1
+
+if (pendaftaran >0) {
+    if (pembayaran >0) {
+        console.log("Ikut kursus");       
+       }else {
+        console.log("Tidak dapat ikut");
+        
+       }
+}else {
+    console.log("Tidak dapat Mendaftar");
+    
+}
