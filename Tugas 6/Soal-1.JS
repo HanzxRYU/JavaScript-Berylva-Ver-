@@ -1,9 +1,9 @@
 // 1. Deklarasi dan Akses Array
-const identity = ["nama antum", "usia", "asal kota"];
+const identity = ["Hannan uddin", "15", "Bogor"];
 console.log(identity[1]); // Menampilkan elemen kedua dari array
 
 // 2. Mengubah Elemen Array
-identity[0] = "nama terakhir antum";
+identity[0] = "Hannan";
 console.log(identity); // Menampilkan array yang telah diperbarui
 
 // 3. Menghapus Elemen Array
@@ -17,7 +17,7 @@ const combinedArray = array1.concat(array2);
 console.log(combinedArray); // Menampilkan hasil gabungan
 
 // 5. Mencari Elemen Array
-const index = identity.indexOf("asal kota");
+const index = identity.indexOf("Bogor");
 console.log(index); // Menampilkan indeks dari elemen "asal kota"
 
 // 6. Mengurutkan Array
@@ -28,3 +28,4 @@ console.log(numbers); // Menampilkan array yang sudah diurutkan
 // 7. Menghitung Banyak Data dalam Array
 const count = numbers.length;
 console.log(count); // Menampilkan jumlah elemen dalam array
+
