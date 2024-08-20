@@ -24,3 +24,4 @@ class Car extends Vehicle {
 // Membuat objek dari kelas Car dan memanggil metode start
 const myCar = new Car("Toyota", "Corolla");
 console.log(myCar.start());
+

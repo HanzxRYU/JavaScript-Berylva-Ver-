@@ -1,3 +1,5 @@
-const Book = {
-    
+class Person {
+    constructor(parameters) {
+        
+    }
 }
