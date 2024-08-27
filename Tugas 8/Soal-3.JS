@@ -33,9 +33,9 @@ class Manager extends Employee {
 }
 
 // Membuat objek dari kelas Manager, Employee, dan Person
-const person = new Person("Alice");
-const employee = new Employee("Bob", "Engineer");
-const manager = new Manager("Charlie", "Manager");
+const person = new Person("Uddin");
+const employee = new Employee("Rayyan", "Engineer");
+const manager = new Manager("Bymeg", "Manager");
 
 // Memanggil metode introduce() pada masing-masing objek
 console.log(person.introduce()); // Output: Hi, my name is Alice
