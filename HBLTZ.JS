@@ -29,3 +29,59 @@ const persegiPanjang = new PersegiPanjang(4, 3);
 
 console.log("Luas:", persegiPanjang.luas());
 console.log("Keliling:", persegiPanjang.keliling());
+//
+class Karyawan {
+  constructor(nama, gaji, jabatan) {
+    this._nama = nama;
+    this._gaji = gaji;
+    this._jabatan = jabatan;
+  }
+
+  // Getter dan Setter untuk nama
+  get nama() {
+    return this._nama;
+  }
+
+  set nama(nama) {
+    this._nama = nama;
+  }
+
+  // Getter dan Setter untuk gaji
+  get gaji() {
+    return this._gaji;
+  }
+
+  set gaji(gaji) {
+    this._gaji = gaji;
+  }
+
+  // Getter dan Setter untuk jabatan
+  get jabatan() {
+    return this._jabatan;
+  }
+
+  set jabatan(jabatan) {
+    this._jabatan = jabatan;
+  }
+}
+
+class Manajer extends Karyawan {
+  constructor(nama, gaji, jabatan, tunjangan) {
+    super(nama, gaji, jabatan);
+    this._tunjangan = tunjangan;
+  }
+
+  beriTunjangan() {
+    this._gaji += this._tunjangan;
+    return `Gaji setelah tunjangan: ${this._gaji}`;
+  }
+}
+
+// Membuat instance objek Manajer
+const manajer = new Manajer("Budi", 10000000, "Manajer", 2000000);
+
+// Menguji semua metode
+console.log(manajer.nama);
+console.log(manajer.gaji);
+console.log(manajer.jabatan);
+console.log(manajer.beriTunjangan());

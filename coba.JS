@@ -58,3 +58,4 @@ const pelajar = new Pelajar("Alpha", "Skilvul");
 
 // Menampilkan hasil belajar
 console.log(pelajar.belajar());
+// 
