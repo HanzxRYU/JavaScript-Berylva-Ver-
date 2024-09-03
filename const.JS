@@ -48,3 +48,5 @@ class Pelajar {
 let pelajar = new Pelajar("alpha", "skilvul");
 
 console.log(pelajar.belajar())
+
+// 
