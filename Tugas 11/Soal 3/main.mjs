@@ -1,0 +1,1 @@
+import {kali, bagi} from ./calculations.mjs;
