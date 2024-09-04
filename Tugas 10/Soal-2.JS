@@ -12,7 +12,7 @@ function confirmPrice(isConfirmed, totalPrice) {
     if (isConfirmed == true) {
         return `Purchase Confirmed with total ${totalPrice}`;
     } else {
-        return `Purchase isn't fucking confirmed`
+        return `Purchase not confirmed`
     }
 }
 

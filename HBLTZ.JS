@@ -119,8 +119,26 @@
 // buku.setPenulis("Si Uddin");
 // console.log(buku.getPenulis());
 
-function LuasPersegi(s) {
-  return s * s
+// function LuasPersegi(s) {
+//   return s * s
+// }
+// console.log(LuasPersegi(4))
+// console.log(LuasPersegi(7))
+
+function calculateTax(price, location) {
+  let taxRate;
+  if (location === "jakarta") {
+      taxRate = 0.10;
+  } else if (location === "bandung") {
+      taxRate = 0.05;
+  } else {
+      taxRate = 0;
+  }
+  let taxAmount = price * taxRate;
+  let finalPrice = price + taxAmount;
+  return finalPrice;
 }
-console.log(LuasPersegi(4))
-console.log(LuasPersegi(7))
+
+// Panggil fungsi calculateTax dengan price 1000 dan location "Jakarta"
+let finalPrice = calculateTax(1000, "Jakarta");
+console.log(finalPrice);  // Output: 1100
