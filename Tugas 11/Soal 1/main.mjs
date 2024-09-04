@@ -1,7 +1,7 @@
 // main.js
 
 // Impor pi, add, dan subtract dari math.js
-import { pi, add, subtract } from "./math.mjs";
+import { pi, add, subtract } from "./math.mjs"; 
 
 // Tampilkan nilai pi ke konsol
 console.log(`Nilai pi: ${pi}`);
