@@ -1,6 +1,6 @@
-for (let i = 1; i <= 40; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log("FizzBuzz");
+for (let i = 3; i <= 50; i++) {
+  if (i % 4 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz",i);
   } else if (i % 3 === 0) {
     console.log("Fizz");
   } else if (i % 5 === 0) {
