@@ -1,5 +1,5 @@
-for (let i = 3; i <= 50; i++) {
-  if (i % 4 === 0 && i % 5 === 0) {
+for (let i = 1; i <= 53; i++) {
+  if (i % 4 === 0 && i % 7 === 0) {
     console.log("FizzBuzz",i);
   } else if (i % 3 === 0) {
     console.log("Fizz");
