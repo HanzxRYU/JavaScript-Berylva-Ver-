@@ -157,24 +157,26 @@
 // mandi()
 // sarapan()
 // berangkatSekolah()
-export default function getUser(name) {
-    return `User: ${name}`;
-}
+// export default function getUser(name) {
+//     return `User: ${name}`;
+// }
 
-export function getUserRole() {
-    return UserRole;
-}
-export const UserRole = "admin";
-import getUser,{getUserRole, UserRole} from "./userUtils.mjs";
+// export function getUserRole() {
+//     return UserRole;
+// }
+// export const UserRole = "admin";
+// import getUser,{getUserRole, UserRole} from "./userUtils.mjs";
 
-console.log(getUser("abduh"));
-console.log(getUser("udin"));
+// console.log(getUser("abduh"));
+// console.log(getUser("udin"));
 
-console.log(`User role ${UserRole}`);
+// console.log(`User role ${UserRole}`);
 
 
-console.log(`user role from function ${getUserRole()}`);
+// console.log(`user role from function ${getUserRole()}`);
 
+Rumpin, September 2024
+								       Penulis	     	
 
 
 
