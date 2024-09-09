@@ -125,20 +125,56 @@
 // console.log(LuasPersegi(4))
 // console.log(LuasPersegi(7))
 
-function calculateTax(price, location) {
-  let taxRate;
-  if (location === "jakarta") {
-      taxRate = 0.10;
-  } else if (location === "bandung") {
-      taxRate = 0.05;
-  } else {
-      taxRate = 0;
-  }
-  let taxAmount = price * taxRate;
-  let finalPrice = price + taxAmount;
-  return finalPrice;
+// function calculateTax(price, location) {
+//   let taxRate;
+//   if (location === "jakarta") {
+//       taxRate = 0.10;
+//   } else if (location === "bandung") {
+//       taxRate = 0.05;
+//   } else {
+//       taxRate = 0;
+//   }
+//   let taxAmount = price * taxRate;
+//   let finalPrice = price + taxAmount;
+//   return finalPrice;
+// }
+
+// // Panggil fungsi calculateTax dengan price 1000 dan location "Jakarta"
+// let finalPrice = calculateTax(1000, "Jakarta");
+// console.log(finalPrice);  // Output: 1100
+// function mandi (){
+//     console.log("Mandi");
+// }
+// function sarapan() {
+//   // setTimeout or delay for *asynchronous* simulation
+//   setTimeout(function () {
+//     console.log("Sarapan tertunda 3 detik");
+//   }, 3000);
+// }
+// function berangkatSekolah (){
+//     console.log("Berangkat Sekolah")
+// }
+// mandi()
+// sarapan()
+// berangkatSekolah()
+export default function getUser(name) {
+    return `User: ${name}`;
 }
 
-// Panggil fungsi calculateTax dengan price 1000 dan location "Jakarta"
-let finalPrice = calculateTax(1000, "Jakarta");
-console.log(finalPrice);  // Output: 1100
+export function getUserRole() {
+    return UserRole;
+}
+export const UserRole = "admin";
+import getUser,{getUserRole, UserRole} from "./userUtils.mjs";
+
+console.log(getUser("abduh"));
+console.log(getUser("udin"));
+
+console.log(`User role ${UserRole}`);
+
+
+console.log(`user role from function ${getUserRole()}`);
+
+
+
+
