@@ -12,3 +12,4 @@ console.log(`User role: ${userRole}`);
 
 // Tampilkan hasil dari getUserRole ke konsol
 console.log(`User role from function: ${getUserRole()}`);
+// yale yalele
