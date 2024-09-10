@@ -43,7 +43,7 @@ if (x > 0 && y > 0) {
 
 
 // nomor 5
-const totalBelanja = 100;
+const totalBelanja = 150;
 
 let diskon = 0;
 

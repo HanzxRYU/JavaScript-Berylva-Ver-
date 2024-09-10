@@ -142,21 +142,21 @@
 // // Panggil fungsi calculateTax dengan price 1000 dan location "Jakarta"
 // let finalPrice = calculateTax(1000, "Jakarta");
 // console.log(finalPrice);  // Output: 1100
-// function mandi (){
-//     console.log("Mandi");
-// }
-// function sarapan() {
-//   // setTimeout or delay for *asynchronous* simulation
-//   setTimeout(function () {
-//     console.log("Sarapan tertunda 3 detik");
-//   }, 3000);
-// }
-// function berangkatSekolah (){
-//     console.log("Berangkat Sekolah")
-// }
-// mandi()
-// sarapan()
-// berangkatSekolah()
+function mandi (){
+    console.log("Mandi");
+}
+function sarapan() {
+  // setTimeout or delay for *asynchronous* simulation
+  setTimeout(function () {
+    console.log("Sarapan tertunda 3 detik");
+  }, 3000);
+}
+function berangkatSekolah (){
+    console.log("Berangkat Sekolah")
+}
+mandi()
+sarapan()
+berangkatSekolah()
 // export default function getUser(name) {
 //     return `User: ${name}`;
 // }
@@ -175,8 +175,7 @@
 
 // console.log(`user role from function ${getUserRole()}`);
 
-Rumpin, September 2024
-								       Penulis	     	
+
 
 
 
