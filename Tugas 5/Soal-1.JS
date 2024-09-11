@@ -1,4 +1,4 @@
-var day = "monday";
+var day = "Monday";
 
 switch (day) {
   case "Monday":
