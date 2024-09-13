@@ -1,5 +1,5 @@
 class Buku {
-  constructor(title, author, penulis) {
+  constructor(title, author,) {
     this.title = title;
     this.author = author;
   }
