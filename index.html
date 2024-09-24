@@ -1,9 +1,81 @@
-export default function getUser(name) {
-  return `User: ${name}`;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John F. Kennedy - Personal Page</title>
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        width: 80%;
+        max-width: 900px;
+        text-align: center;
+        background-color: #1a1a1a;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+      }
+      p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin-bottom: 1em;
+      }
+      .highlight {
+        color: #ffa500; /* Accent color */
+      }
+      .contact {
+        margin-top: 2em;
+      }
+      a {
+        color: #ffa500;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 2em;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>John F. Kennedy</h1>
+      <p>
+        Hello, I'm <span class="highlight">John F. Kennedy</span>, and welcome
+        to my personal webpage.
+      </p>
+      <p>
+        This is a simple minimalist page designed with a focus on black, white,
+        and orange accents. Feel free to explore and reach out to me.
+      </p>
 
-export function getUserRole() {
-  return UserRole;
-}
-export const UserRole = "admin";
-<!--  -->
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:john@example.com">john@example.com</a></p>
+        <p>
+          LinkedIn:
+          <a href="https://linkedin.com/in/johnfkennedy" target="_blank"
+            >linkedin.com/in/johnfkennedy</a
+          >
+        </p>
+      </div>
+
+      <footer>&copy; 2024 John F. Kennedy. All rights reserved.</footer>
+    </div>
+  </body>
+</html>
