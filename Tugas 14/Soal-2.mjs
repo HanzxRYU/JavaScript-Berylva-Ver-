@@ -1,6 +1,6 @@
 async function calculateDivision(a, b) {
     try {
-      if (b === 0) {  // Ganti 'divisor' dengan 'b'
+      if (b === 0) {  
         throw new Error("Pembagi tidak boleh 0");
       }
       const result = await new Promise((resolve, reject) => {
