@@ -27,3 +27,4 @@ async function checkPostAvailability() {
 
 // Memanggil fungsi
 checkPostAvailability();
+// test
